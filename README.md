@@ -41,7 +41,7 @@ Windows Cronjobs was developed to address these issues. By providing functionali
 
 ## Features
 
-Windows Cronjobs v0.2.1 currently only supports common cron jobs settings found in cPanel:
+Windows Cronjobs v0.2.2 currently only supports common cron jobs settings found in cPanel:
 
 - **Once Per Minute:** `* * * * *`
 - **Once Per Five Minutes:** `*/5 * * * *`

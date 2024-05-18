@@ -180,7 +180,7 @@ Register-EngineEvent -SourceIdentifier PowerShell.Exiting -Action $exitHandler  
 # Start Program
 # ==========================================
 Write-Host "-------------------------------------------------------"
-Write-Host "| WINDOWS CRONJOBS v0.2.1                             |"
+Write-Host "| WINDOWS CRONJOBS v0.2.2                             |"
 Write-Host "|                                                     |"
 Write-Host "| - (c) Putu Ardi Dharmayasa                          |"
 Write-Host "| - https://github.com/putuardiworks/windows-cronjobs |"

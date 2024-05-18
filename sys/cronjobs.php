@@ -26,7 +26,7 @@ if (empty($SYSTEM['logs_path'])) {
 }
 
 $current_time = get_current_time($timezone, '[d-m-Y H:i:s T] ');
-$log_message = $current_time . 'cronjobs-windows:';
+$log_message = $current_time . 'windows-cronjobs:';
 log_data($logs_path . '/windows-cronjobs.log', $log_message);
 
 foreach ($cronjobs_list as $index => $cronjobs_string) {

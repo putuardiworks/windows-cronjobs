@@ -41,7 +41,7 @@ Windows Cronjobs dikembangkan untuk mengatasi masalah tersebut. Dengan menyediak
 
 ## Fitur
 
-Windows Cronjobs v0.2.1 saat ini hanya mendukung pengaturan umum cron jobs yang ada di cPanel:
+Windows Cronjobs v0.2.2 saat ini hanya mendukung pengaturan umum cron jobs yang ada di cPanel:
 
 - **Sekali Semenit:** `* * * * *`
 - **Sekali Per Lima Menit:** `*/5 * * * *`
