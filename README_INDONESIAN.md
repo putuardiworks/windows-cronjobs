@@ -27,6 +27,10 @@ Windows Cronjobs dikembangkan untuk mengatasi masalah tersebut. Dengan menyediak
    - Edit `cronjobs_list.php`.
    - Masukkan cron jobs Anda seperti pada contoh.
 
+4. **Abaikan File Konfigurasi (Opsional):**
+   - Jika Anda bekerja dalam sebuah tim menggunakan git, disarankan untuk membuat gitignore untuk file `windows-cronjobs.config` agar konfigurasi pribadi tidak ter-push ke repositori.
+   - Untuk melakukannya, cukup tambahkan `windows-cronjobs.config` ke file `.gitignore` Anda.
+
 ## Penggunaan
 
 - **Memulai Cron Jobs:**
@@ -37,7 +41,7 @@ Windows Cronjobs dikembangkan untuk mengatasi masalah tersebut. Dengan menyediak
 
 ## Fitur
 
-Windows Cronjobs v0.1 saat ini hanya mendukung pengaturan umum cron jobs yang ada di cPanel:
+Windows Cronjobs v0.2 saat ini hanya mendukung pengaturan umum cron jobs yang ada di cPanel:
 
 - **Sekali Semenit:** `* * * * *`
 - **Sekali Per Lima Menit:** `*/5 * * * *`

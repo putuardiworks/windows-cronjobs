@@ -3,7 +3,6 @@
 require_once __DIR__ . '/functions.php';
 require_once __DIR__ . '/../cronjobs_list.php';
 
-$CONFIG = get_user_config();
 $SYSTEM = get_system_config();
 
 $timezone = $CONFIG['timezone'] ?: 'WITA';

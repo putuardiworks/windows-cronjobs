@@ -27,6 +27,10 @@ Windows Cronjobs was developed to address these issues. By providing functionali
    - Edit `cronjobs_list.php`.
    - Add your cron jobs as shown in the example.
 
+4. **Ignore Configuration File (Optional):**
+   - If you're working in a team with git, it's recommended to gitignore the `windows-cronjobs.config` file to prevent personal configurations from being pushed to the repository.
+   - To do that, just add `windows-cronjobs.config` to your `.gitignore` file.
+
 ## Usage
 
 - **Start Cron Jobs:**
@@ -37,7 +41,7 @@ Windows Cronjobs was developed to address these issues. By providing functionali
 
 ## Features
 
-Windows Cronjobs v0.1 currently only supports common cron jobs settings found in cPanel:
+Windows Cronjobs v0.2 currently only supports common cron jobs settings found in cPanel:
 
 - **Once Per Minute:** `* * * * *`
 - **Once Per Five Minutes:** `*/5 * * * *`
